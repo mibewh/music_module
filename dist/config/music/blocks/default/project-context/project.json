@@ -1,5 +1,5 @@
 {
-    "evaluator": "project-context",
+    "evaluator": "context-project",
     "config": {
         "project-context": {
             "items": [{
@@ -13,7 +13,7 @@
                         "key": "project/albums",
                         "title": "Albums",
                         "uri": "#/projects/{projectId}/albums",
-                        "iconClass": "fa fa-music",
+                        "iconClass": "fa fa-music"
                     },
                     {
                         "key": "project/artists",

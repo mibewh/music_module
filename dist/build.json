@@ -2,8 +2,11 @@
   "files": [
     "index.js",
     "install.js",
-    "module.json",
     "uninstall.js",
-    "config/music/blocks/default/project-context/project.json"
+    "module.json",
+    "templates/sample-template.html",
+    "config/music/blocks/default/project-context/project.json",
+    "config/music/pages/albums-page/center.json",
+    "config/music/pages/albums-page/page.json"
   ]
 }

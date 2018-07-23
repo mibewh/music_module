@@ -1,0 +1,33 @@
+<div>
+    {{#each_group 3 albums}}
+        <div class="row">
+            {{#each this}}
+                <div class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a href="{{albumUrl}}">
+                                <h3>{{title}}</h3>
+                            </a>
+                        </div>
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img class="media-object" src="{{imgUrl}}" alt="{{title}}">
+                                </div>
+                                <div class="media-body">
+                                    <a href="{{artistUrl}}">
+                                        <h4>{{artist.title}}</h4>
+                                    </a>
+                                    {{{body}}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            Rating: {{rating}}
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    {{/each_group}}
+</div>
