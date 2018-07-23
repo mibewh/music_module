@@ -2,7 +2,8 @@
   "files": [
     "index.js",
     "install.js",
+    "module.json",
     "uninstall.js",
-    "module.json"
+    "config/music/blocks/default/project-context/project.json"
   ]
 }

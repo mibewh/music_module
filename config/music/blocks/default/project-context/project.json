@@ -1,0 +1,28 @@
+{
+    "evaluator": "project-context",
+    "config": {
+        "project-context": {
+            "items": [{
+                "key": "project/music",
+                "title": "Music",
+                "order": 10000,
+                "header": true,
+                "allowPermission": ["read"],
+                "items": [
+                    {
+                        "key": "project/albums",
+                        "title": "Albums",
+                        "uri": "#/projects/{projectId}/albums",
+                        "iconClass": "fa fa-music",
+                    },
+                    {
+                        "key": "project/artists",
+                        "title": "Artists",
+                        "uri": "#/projects/{projectId}/artists",
+                        "iconClass": "fa fa-users"
+                    }
+                ]
+            }]
+        }
+    }
+}
