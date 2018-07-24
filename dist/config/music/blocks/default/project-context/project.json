@@ -16,6 +16,12 @@
                         "iconClass": "fa fa-music"
                     },
                     {
+                        "key": "project/albumslist",
+                        "title": "Albums List",
+                        "uri": "#/projects/{projectId}/albumslist",
+                        "iconClass": "fa fa-list"
+                    },
+                    {
                         "key": "project/artists",
                         "title": "Artists",
                         "uri": "#/projects/{projectId}/artists",

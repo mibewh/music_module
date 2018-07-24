@@ -1,0 +1,57 @@
+{
+    "type": "music-albums-doclist",
+    "config": {
+        "chrome": false,
+        "buttons": [{
+            "key": "create-new-album",
+            "title": "Create New Album",
+            "iconClass": "fa fa-plus",
+            "action": "create-album",
+            "align": "left",
+            "allowPermission": [
+                "create_subobjects"
+            ]
+        }],
+        "columns": [{
+            "title": "Album",
+            "key": "titleDescription"
+        }],
+        "icon": true,
+        "checkbox": true,
+        "loader": "gitana",
+        "selectorGroups": {
+            "multi-documents-action-selector-group": {
+                "actions": [{
+                    "action": "delete-albums",
+                    "order": 100,
+                    "allowPermission": [
+                        "delete"
+                    ]
+                }]
+            },
+            "sort-selector-group": {
+                "fields": [{
+                    "key": "album",
+                    "title": "Album",
+                    "field": "album"
+                }, {
+                    "key": "createdOn",
+                    "title": "Created On",
+                    "field": "_system.created_on.ms"
+                }, {
+                    "key": "createdBy",
+                    "title": "Created By",
+                    "field": "_system.created_by"
+                }, {
+                    "key": "modifiedOn",
+                    "title": "Modified On",
+                    "field": "_system.modified_on.ms"
+                }, {
+                    "key": "modifiedBy",
+                    "title": "Modified By",
+                    "field": "_system.modified_by"
+                }]
+            }
+        }
+    }
+}
