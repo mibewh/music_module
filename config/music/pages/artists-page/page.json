@@ -1,6 +1,6 @@
 {
-    "title": "Albums",
-    "uri": "/projects/{projectId}/albums",
+    "title": "Artists",
+    "uri": "/projects/{projectId}/artists",
     "extends": "project/_project",
     "template": "sample-template"
 }

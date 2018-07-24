@@ -7,6 +7,8 @@
     "templates/sample-template.html",
     "config/music/blocks/default/project-context/project.json",
     "config/music/pages/albums-page/center.json",
-    "config/music/pages/albums-page/page.json"
+    "config/music/pages/albums-page/page.json",
+    "config/music/pages/artists-page/center.json",
+    "config/music/pages/artists-page/page.json"
   ]
 }

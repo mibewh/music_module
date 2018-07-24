@@ -1,0 +1,8 @@
+{
+    "type": "music-artists-list",
+    "config": {
+        "chrome": {
+            "title": "Artists"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<div>
+    {{#artists}}
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href="{{url}}">
+                            <h3>{{title}}</h3>
+                        </a>
+                    </div>
+                    <div class="panel-body">
+                        {{{bio}}}
+                        {{#albums}}
+                        <p><a href="{{url}}">{{title}}</a></p>
+                        {{/albums}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/artists}}
+</div>
