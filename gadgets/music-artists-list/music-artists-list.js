@@ -46,6 +46,7 @@ define(function(require, exports, module) {
                     return artists;
                 }).then(function(artists) {
                     model.artists = artists;
+                    console.log(artists);
                     callback();
                 });
             });

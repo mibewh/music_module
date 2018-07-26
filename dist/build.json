@@ -1,8 +1,8 @@
 {
   "files": [
     "index.js",
-    "uninstall.js",
     "install.js",
+    "uninstall.js",
     "module.json",
     "templates/sample-template.html",
     "config/music/blocks/default/project-context/project.json",
